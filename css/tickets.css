@@ -1,0 +1,22 @@
+.tickets_and_choose {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.parent_tickets_and_choose {
+  display: flex;
+  justify-content: center;
+}
+
+.tickets_text {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.tickets_choose {
+  display: flex;
+  /* flex-direction: column; */
+  width: 300px;
+}
