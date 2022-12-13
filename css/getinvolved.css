@@ -103,7 +103,7 @@ h6 {
   font-family: "Barlow Semi Condensed";
 }
 
-input[type="text"] {
+.inputs {
   font-family: "Alata";
   display: flex;
   width: 350px;
@@ -113,6 +113,9 @@ input[type="text"] {
   border-radius: 15px;
   border: none;
   background-color: #ff6c3b;
+}
+
+.getinvolved_inputs input {
 }
 
 .message {
@@ -167,4 +170,3 @@ input[type="submit"] {
   display: flex;
   flex-direction: column;
 }
-

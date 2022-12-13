@@ -23,6 +23,11 @@
       rel="stylesheet"
     />
 
+    <script
+      src="https://kit.fontawesome.com/670adc412b.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/getinvolved.css" />
     <link rel="stylesheet" href="css/button.css" />
@@ -152,14 +157,20 @@
                   <br />
                   our contact information at the bottom of every page.
                 </p>
-                <input type="text" id="name" placeholder="Name.." />
-                <input type="text" id="email" placeholder="E-mail address.." />
-                <input
-                  type="text"
-                  id="message"
-                  placeholder="Your message.."
-                  class="message"
-                />
+                <div class="inputs">
+                  <input type="text" id="name" placeholder="Name.." />
+                  <input
+                    type="text"
+                    id="email"
+                    placeholder="E-mail address.."
+                  />
+                  <input
+                    type="text"
+                    id="message"
+                    placeholder="Your message.."
+                    class="message"
+                  />
+                </div>
               </form>
             </div>
           </div>
@@ -170,30 +181,56 @@
     <footer>
       <section class="footer_parent">
         <div class="footer_column1">
-          <h2>Address</h2>
-          <p>Mølleparken 4 0459 Oslo</p>
-          <h2>Contact</h2>
-          <p>E-mail: contact@csm.com Tel.: 38 00 00 00</p>
-          <h2>BUTTON HERE</h2>
+          <h2>Address <i class="fa-solid fa-map-location-dot"></i></h2>
+          <p>
+            Mølleparken 4 <br />
+            0459 Oslo
+          </p>
+          <div class="footer_contact_separate">
+            <h2>Contact <i class="fa-solid fa-phone"></i></h2>
+            <p>
+              E-mail: contact@csm.com <br />
+              Tel.: 38 00 00 00
+            </p>
+            <button class="button_footer">
+              <a href="about.html">CONTACT FORM</a>
+            </button>
+          </div>
         </div>
         <div class="footer_column2">
-          <h2>Opening Hours</h2>
+          <h2>Opening Hours <i class="fa-solid fa-door-open"></i></h2>
           <p>
-            Monday: Closed Tuesday: 10:00 - 16:00 Wednesday: 10:00 - 16:00
-            Thursday: 10:00 - 16:00 Friday: 10:00 - 19:00 Saturday: 9:00 - 16:00
+            Monday: Closed <br />
+            Tuesday: 10:00 - 16:00 <br />
+            Wednesday: 10:00 - 16:00 <br />
+            Thursday: 10:00 - 16:00 <br />
+            Friday: 10:00 - 19:00 <br />
+            Saturday: 9:00 - 16:00 <br />
             Sunday: 9:00 - 13:00
           </p>
         </div>
         <div class="footer_column3">
-          <h2>Accessibility</h2>
+          <h2>Accessibility <i class="fa-brands fa-accessible-icon"></i></h2>
           <p>
-            We welcome everyone! The museum has wheelchair accessibility ramps.
-            It also has audio guides and braille display signs for the visually
-            impaired.
+            We welcome everyone! <br />
+            The museum has <br />
+            wheelchair accessibility <br />
+            ramps. It also has <br />
+            audio guides and <br />
+            braille display signs for <br />
+            the visually impaired.
           </p>
         </div>
         <div class="footer_column4">
-          <h2>Social Media</h2>
+          <h2>Social Media <i class="fa-solid fa-user-group"></i></h2>
+          <p>
+            <i class="fa-brands fa-instagram"></i
+            ><i class="fa-brands fa-square-facebook"></i>
+          </p>
+          <p>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </p>
         </div>
       </section>
     </footer>

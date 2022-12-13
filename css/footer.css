@@ -22,12 +22,13 @@ footer {
 footer h2 {
   min-width: 100px;
   font-size: 18px;
+  font-family: "Alata";
+  letter-spacing: 0;
 }
 
 footer p {
   font-family: "Barlow Semi Condensed";
   font-size: 20px;
-  letter-spacing: ;
 }
 
 .footer_column1,

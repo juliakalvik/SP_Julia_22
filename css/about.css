@@ -95,7 +95,7 @@ p {
   color: #ffffff;
 }
 
-input[type="text"] {
+.about_inputs input {
   font-family: "Alata";
   display: flex;
   width: 350px;
