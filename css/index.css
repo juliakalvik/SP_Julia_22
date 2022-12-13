@@ -61,7 +61,7 @@ h4 {
 .exhibitions {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 50px;
   flex-wrap: wrap;
   flex-direction: row;
   margin-right: 0;
@@ -73,8 +73,9 @@ h4 {
 .eco,
 .evo,
 .cos {
-  width: 18%;
-  display: flex;
+  width: 300px;
+  display: grid;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 
@@ -105,19 +106,28 @@ h2 {
   font-size: 15px;
 }
 
+.info_and_contribute {
+  display: grid;
+  flex-wrap: wrap;
+}
+
 .info_parent {
   display: flex;
+  flex-wrap: wrap;
   height: 300px;
   justify-content: center;
-  gap: 10rem;
+  gap: 150px;
   width: 100%;
   line-height: 30px;
   margin-top: 45px;
+  background-color: #3b9bdf;
 }
 
 .map_img {
   height: 500px;
   width: 320px;
+  display: grid;
+  flex-wrap: wrap;
 }
 
 .map_homepage {
@@ -126,17 +136,26 @@ h2 {
 
 .info_text_1,
 .info_text_2 {
-  height: 100%;
   margin-top: 20px;
+  min-width: 200px;
+}
+
+.info_text_2 {
+  background-color: #3b9bdf;
+  height: 80%;
 }
 
 .contribute_homepage {
   background-color: #fded71;
   border-radius: 30px;
-  width: 60%;
-  height: 100px;
+  display: grid;
+  flex-wrap: wrap;
+  width: 40%;
+  height: 80%;
   margin-top: 45px;
-  margin-left: 15px;
+  margin-left: 12%;
+  padding: 3%;
+  padding-top: 1%;
 }
 
 .contribute_h2_button {
@@ -279,8 +298,9 @@ h6 {
 .professor_card,
 .night_card,
 .loan_card {
-  display: flex;
+  display: grid;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   padding: 20px;
   width: 500px;
@@ -294,7 +314,7 @@ h6 {
 
 .kids_and_teens {
   background-color: #ff453d;
-  height: 420px;
+  height: 600px;
   margin-top: 20px;
   align-items: center;
 }
@@ -309,6 +329,7 @@ h6 {
 .HP_img_3 {
   width: 80%;
   margin-top: 10px;
+  padding: 30px;
 }
 
 .kids_and_teens {
@@ -368,4 +389,28 @@ h6 {
 
 .infocard_researchers {
   background-color: #fded71;
+}
+
+@media screen and (min-width: 1024px) {
+  .contribute_homepage {
+    width: 60%;
+    height: 150px;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 45px;
+  }
+
+  .map_img {
+    display: flex;
+    position: absolute;
+  }
+
+  .map_homepage {
+    margin-right: ;
+  }
+
+  .info_parent {
+    width: 85%;
+    gap: 38px;
+  }
 }
