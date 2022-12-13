@@ -1,0 +1,170 @@
+.getinvolved_grid {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  width: 80%;
+  /* width: 1200px; */
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Alata";
+  font-size: 36px;
+  margin: 25px;
+}
+
+.getinvolved_grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid_column1,
+.grid_column2,
+.grid_column3 {
+  display: grid;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 400px;
+}
+
+.volunteer_textflex,
+.support_textflex,
+.internships_textflex {
+  display: flex;
+  gap: 20px;
+  height: 320px;
+  align-items: center;
+  font-family: "Barlow Semi Condensed";
+  width: 400px;
+}
+
+.volunteer_textflex,
+.internships_textflex {
+  margin-top: 30px;
+}
+
+.support_textflex {
+  margin-bottom: 30px;
+  background-color: #ce85f180;
+  border-radius: 25px;
+  padding: 25px;
+}
+
+.volunteer_textflex {
+  background-color: #71ba6780;
+  border-radius: 25px;
+  padding: 25px;
+}
+
+.internships_textflex {
+  background-color: #fded7180;
+  border-radius: 25px;
+  padding: 25px;
+}
+
+.GI_img1,
+.GI_img2,
+.GI_img3 {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+h6 {
+  font-size: 16px;
+  font-family: "Alata";
+}
+
+.contactform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gi_form_background {
+  background-color: #3b3b3b;
+  border-radius: 20px;
+  padding: 20px;
+  padding-top: 0;
+}
+
+.gi_form p {
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Barlow Semi Condensed";
+}
+
+input[type="text"] {
+  font-family: "Alata";
+  display: flex;
+  width: 350px;
+  padding: 1.5vh;
+  font-size: medium;
+  margin: 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: #ff6c3b;
+}
+
+.message {
+  height: 20vh;
+}
+
+::placeholder {
+  color: #ffffff90;
+}
+
+.contactform a {
+  text-decoration: none;
+}
+
+input[type="submit"] {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  background-color: #ff6c3b;
+  color: #ffffff;
+  border: none;
+  width: 200px;
+  height: 50px;
+  margin-top: 25px;
+  border-radius: 45px;
+  font-family: "Alata", sans-serif;
+}
+
+.contactform {
+  display: flex;
+  justify-content: center;
+  padding-top: 2vh;
+  flex-direction: row;
+  margin: 20px;
+  gap: 100px;
+  padding-bottom: 30px;
+}
+
+.logo_circkle {
+  width: 100px;
+}
+
+.form_img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.only_form {
+  display: flex;
+  flex-direction: column;
+}
+

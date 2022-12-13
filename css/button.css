@@ -1,0 +1,12 @@
+.button,
+.button_footer {
+  background-color: #ff6c3b;
+  color: #ffffff;
+  font-family: "alata", sans-serif;
+  font-size: 12px;
+  border-radius: 50px;
+  max-width: 110px;
+  padding: 2px;
+  border: none;
+  height: 40px;
+}

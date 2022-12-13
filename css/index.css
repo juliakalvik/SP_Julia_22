@@ -1,0 +1,371 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+}
+
+.header_img {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.text_header {
+  flex-direction: column;
+  position: absolute;
+  margin-left: 2%;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 80%;
+}
+
+.button {
+  margin-left: 33%;
+  margin-top: 4%;
+}
+
+.text_header {
+  display: flex;
+}
+
+h3 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  padding-bottom: 2%;
+  line-height: 25px;
+}
+
+h1 {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 35px;
+  font-weight: 100;
+}
+
+h4 {
+  font-family: "Annie Use Your Telescope", cursive;
+  padding-bottom: 5%;
+  line-height: 5px;
+}
+
+.exhibitions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-right: 0;
+  margin-top: 45px;
+}
+
+.bio,
+.ai,
+.eco,
+.evo,
+.cos {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bio h6,
+.ai h6,
+.eco h6,
+.evo h6,
+.cos h6 {
+  display: flex;
+  justify-content: center;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  font-family: "Alata", sans-serif;
+}
+
+.info {
+  max-width: 100%;
+  max-height: 500px;
+  background-color: #3b9bdf;
+}
+
+p {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+h2 {
+  font-family: "Alata", sans-serif;
+  font-size: 15px;
+}
+
+.info_parent {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  gap: 10rem;
+  width: 100%;
+  line-height: 30px;
+  margin-top: 45px;
+}
+
+.map_img {
+  height: 500px;
+  width: 320px;
+}
+
+.map_homepage {
+  padding-right: 10px;
+}
+
+.info_text_1,
+.info_text_2 {
+  height: 100%;
+  margin-top: 20px;
+}
+
+.contribute_homepage {
+  background-color: #fded71;
+  border-radius: 30px;
+  width: 60%;
+  height: 100px;
+  margin-top: 45px;
+  margin-left: 15px;
+}
+
+.contribute_h2_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.contribute_homepage .button {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  color: black;
+}
+
+.contribute_h2 {
+  margin-right: 2.5px;
+}
+
+.contribute_text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.HP_imgclass_1 {
+  margin-top: 70px;
+}
+
+h6 {
+  font-family: "Alata", sans-serif;
+}
+
+.special {
+  padding-left: 20px;
+}
+
+.special_h2 {
+  display: flex;
+  justify-content: left;
+  margin-left: 11.5%;
+  margin-top: 25px;
+}
+
+.professor_card {
+  background-color: #71ba67;
+  width: 540px;
+  border-radius: 20px;
+  height: 27%;
+  font-size: 16px;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+.professor_textflex {
+  display: flex;
+  gap: 1rem;
+  padding-left: 20px;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.professor_card h6 {
+  text-align: center;
+}
+
+.professor_text1,
+.professor_text2 {
+  max-width: 250px;
+  line-height: 25px;
+}
+
+.night_card {
+  background-color: #71ba67;
+  width: 540px;
+  border-radius: 20px;
+  height: 27%;
+  font-size: 16x;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+.night_textflex {
+  display: flex;
+  gap: 1rem;
+  padding-left: 20px;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.night_card h6 {
+  text-align: center;
+}
+
+.night_text1,
+.night_text2 {
+  max-width: 250px;
+  line-height: 25px;
+}
+
+.loan_card {
+  background-color: #71ba67;
+  width: 540px;
+  border-radius: 20px;
+  height: 35%;
+  font-size: 16px;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+.loan_textflex {
+  display: flex;
+  gap: 1rem;
+  padding-left: 20px;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.loan_card h6 {
+  text-align: center;
+}
+
+.loan_text1,
+.loan_text2 {
+  max-width: 265px;
+  line-height: 25px;
+}
+
+.card_img {
+  /* max-width: 785px; */
+  width: 100%;
+  padding-top: 20px;
+}
+
+.card_parent {
+  display: flex;
+}
+
+.professor_card,
+.night_card,
+.loan_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 500px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.kids_and_teens_allcontent {
+  display: flex;
+}
+
+.kids_and_teens {
+  background-color: #ff453d;
+  height: 420px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.kids_img_container {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 50%;
+}
+
+.HP_img_3 {
+  width: 80%;
+  margin-top: 10px;
+}
+
+.kids_and_teens {
+  display: flex;
+  max-height: 500px;
+}
+
+.kids_and_teens_textflex {
+  display: flex;
+  gap: 3rem;
+  margin-right: 60px;
+  line-height: 22px;
+  margin-top: 20px;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  width: 500px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.kids_and_teens_header {
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+.infosection_parent {
+  display: flex;
+  margin-top: 25px;
+  gap: 20px;
+}
+
+.info_audience {
+  margin: 25px;
+  padding-bottom: 25px;
+}
+
+.infocard_parents,
+.infocard_teachers,
+.infocard_researchers {
+  background-color: #ce85f1;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 500px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.infocard_teachers {
+  background-color: #3b9bdf;
+}
+
+.infocard_researchers {
+  background-color: #fded71;
+}

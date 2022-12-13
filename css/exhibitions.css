@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header_exh {
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-family: "alata", sans-serif;
+  font-weight: 100;
+  padding-top: 25px;
+}
+
+.header_img_exh {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.cosmology {
+  background-color: #ce85f180;
+  margin-bottom: 35px;
+}
+
+.evolution {
+  background-color: #3b9bdf80;
+  margin-bottom: 35px;
+}
+
+.ecology {
+  background-color: #71ba6780;
+  margin-bottom: 35px;
+}
+
+.ai {
+  background-color: #fded7180;
+  margin-bottom: 35px;
+}
+
+.bio {
+  background-color: #ff453d80;
+}
+
+h2 {
+  font-family: "Alata", sans-serif;
+  letter-spacing: 15px;
+}
+
+p {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.img_cos1,
+.img_cos2,
+.img_evo1,
+.img_evo2,
+.img_eco1,
+.img_eco2,
+.img_ai1,
+.img_ai2,
+.img_bio1,
+.img_bio2 {
+  width: 230px;
+  padding: 30px;
+}
+
+.cos_card,
+.evo_card,
+.eco_card,
+.ai_card,
+.bio_card {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.cos_card_parent,
+.evo_card_parent,
+.eco_card_parent,
+.ai_card_parent,
+.bio_card_parent {
+  display: flex;
+  flex-direction: column;
+}
+
+.cos_header,
+.evo_header,
+.eco_header,
+.ai_header,
+.bio_header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.cos_text1,
+.cos_text2,
+.evo_text1,
+.evo_text2,
+.eco_text1,
+.eco_text2,
+.ai_text1,
+.ai_text2,
+.bio_text1,
+.bio_text2 {
+  display: flex;
+  flex-direction: row;
+  min-width: 100px;
+}
+
+.cos_textflex,
+.evo_textflex,
+.eco_textflex,
+.ai_textflex,
+.bio_textflex {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-size: 20px;
+}
+
+.cos_alltext,
+.evo_alltext,
+.eco_alltext,
+.ai_alltext,
+.bio_alltext {
+  line-height: 30px;
+}
