@@ -1,22 +1,57 @@
+main {
+  margin-top: 50px;
+}
+
 .tickets_and_choose {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  width: 100%;
 }
 
-.parent_tickets_and_choose {
+.parent_ticketstext_and_choose {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .tickets_text {
   display: flex;
   flex-direction: column;
-  width: 200px;
+  gap: 50px;
+  line-height: 30px;
+  width: 40%;
+}
+
+.text_admission,
+.text_guidedtours,
+.text_openinghours {
+  width: 300px;
 }
 
 .tickets_choose {
   display: flex;
-  /* flex-direction: column; */
-  width: 300px;
+  flex-wrap: wrap;
+  width: 400px;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.choose1 {
+  width: 200px;
+  margin: 0;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.choose1 label {
+  display: flex;
+  flex-direction: row;
+}
+
+.yourtickets_column1,
+.yourtickets_form {
+  display: flex;
+  flex-direction: column;
 }
