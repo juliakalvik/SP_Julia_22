@@ -1,0 +1,51 @@
+.yourtickets_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.yourtickets_column1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.yourtickets_box1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.yourtickets_box2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.info_box1 {
+  display: flex;
+  background-color: #3b3b3b;
+}
+
+.column1_text {
+  display: flex;
+}
+
+.column2_text {
+  background-color: #ff6c3b;
+}
+
+.column2_text h3 {
+  margin: 20px;
+}
+
+.info_box1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.yourtickets_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.yourtickets_form_parent {
+  display: flex;
+  flex-direction: column;
+}

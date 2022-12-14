@@ -4,67 +4,113 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="css/footer.css" />
+    <script
+      src="https://kit.fontawesome.com/670adc412b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/yourtickets.css" />
     <link rel="stylesheet" href="css/button.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/footer.css" />
+    <title>Community science museum</title>
   </head>
   <body>
-    <footer>
-      <section class="footer_parent">
-        <div class="footer_column1">
-          <h2>Address <i class="fa-solid fa-map-location-dot"></i></h2>
-          <p>
-            Mølleparken 4 <br />
-            0459 Oslo
-          </p>
-          <div class="footer_contact_separate">
-            <h2>Contact <i class="fa-solid fa-phone"></i></h2>
-            <p>
-              E-mail: contact@csm.com <br />
-              Tel.: 38 00 00 00
-            </p>
-            <button class="button_footer">
-              <a href="about.html">CONTACT FORM</a>
-            </button>
+    <header>
+      <section class="navbar">
+        <a href="index.html">
+          <img src="images/Logo.png" alt="Logo" class="logo" />
+        </a>
+
+        <nav>
+          <ul>
+            <a href="about.html">ABOUT</a>
+            <a href="getinvolved.html">CONTRIBUTE</a>
+            <a href="exhibitions.html">EXHIBITIONS</a>
+            <a href="tickets.html" class="tickets">TICKETS</a>
+          </ul>
+          <div class="search_field">
+            <input type="text" placeholder="search.." class="search_input" />
+          </div>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <section class="yourtickets_container">
+        <div class="yourtickets_column1">
+          <div class="yourtickets_box1">
+            <div class="header_box1">
+              <h2>YOUR TICKETS</h2>
+            </div>
+            <div class="info_box1">
+              <div class="background">
+                <div class="box1_column1">
+                  <div class="column1_text">
+                    <h3>KIDS 13-19</h3>
+                    <h3>ADULTS</h3>
+                  </div>
+                  <div class="box1_column2">
+                    <div class="column2_text">
+                      <h3>4</h3>
+                      <h3>2</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="yourtickets_box2">
+            <div class="header_box2">
+              <h2>YOUR DATE AND TIME</h2>
+            </div>
+            <div class="background2">
+              <div class="box2_column1">
+                <h3>31.01.23</h3>
+              </div>
+              <div calss="box2_column2">
+                <h3>14:00-16:00</h3>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="footer_column2">
-          <h2>Opening Hours <i class="fa-solid fa-door-open"></i></h2>
-          <p>
-            Monday: Closed <br />
-            Tuesday: 10:00 - 16:00 <br />
-            Wednesday: 10:00 - 16:00 <br />
-            Thursday: 10:00 - 16:00 <br />
-            Friday: 10:00 - 19:00 <br />
-            Saturday: 9:00 - 16:00 <br />
-            Sunday: 9:00 - 13:00
-          </p>
-        </div>
-        <div class="footer_column3">
-          <h2>Accessibility <i class="fa-brands fa-accessible-icon"></i></h2>
-          <p>
-            We welcome everyone! <br />
-            The museum has <br />
-            wheelchair accessibility <br />
-            ramps. It also has <br />
-            audio guides and <br />
-            braille display signs for <br />
-            the visually impaired.
-          </p>
-        </div>
-        <div class="footer_column4">
-          <h2>Social Media <i class="fa-solid fa-user-group"></i></h2>
-          <p>
-            <i class="fa-brands fa-instagram"></i
-            ><i class="fa-brands fa-square-facebook"></i>
-          </p>
-          <p>
-            <i class="fa-brands fa-tiktok"></i>
-            <i class="fa-brands fa-youtube"></i>
-          </p>
+        <div class="yourtickets_form">
+          <div class="yourtickets_form_parent">
+            <form action="index.html">
+              <div class="yourtickets_inputs">
+                <input type="text" id="name" placeholder="Full name.." />
+                <input type="tel" id="phone" placeholder="Phone number.." />
+                <input type="text" id="email" placeholder="E-mail address.." />
+                <input
+                  type="checkbox"
+                  id="terms"
+                  placeholder="I agree to the terms of use"
+                  class="checkbox"
+                />
+                <input type="submit" value="SEND" />
+              </div>
+            </form>
+          </div>
         </div>
       </section>
-    </footer>
+    </main>
   </body>
 </html>
