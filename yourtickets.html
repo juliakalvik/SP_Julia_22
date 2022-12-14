@@ -57,21 +57,29 @@
     <main>
       <section class="yourtickets_container">
         <div class="yourtickets_column1">
+          <div class="header_box1">
+            <h2>YOUR TICKETS</h2>
+          </div>
           <div class="yourtickets_box1">
-            <div class="header_box1">
-              <h2>YOUR TICKETS</h2>
-            </div>
             <div class="info_box1">
               <div class="background">
                 <div class="box1_column1">
                   <div class="column1_text">
-                    <h3>KIDS 13-19</h3>
-                    <h3>ADULTS</h3>
+                    <div class="text_kids13-19">
+                      <h3>KIDS 13-19</h3>
+                    </div>
+                    <div class="text_adults">
+                      <h3>ADULTS</h3>
+                    </div>
                   </div>
                   <div class="box1_column2">
                     <div class="column2_text">
-                      <h3>4</h3>
-                      <h3>2</h3>
+                      <div class="text_4">
+                        <h3>4</h3>
+                      </div>
+                      <div class="text_2">
+                        <h3>2</h3>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -85,15 +93,41 @@
             <div class="background2">
               <div class="box2_column1">
                 <h3>31.01.23</h3>
-              </div>
-              <div calss="box2_column2">
                 <h3>14:00-16:00</h3>
               </div>
             </div>
           </div>
         </div>
         <div class="yourtickets_form">
-          <div class="yourtickets_form_parent">
+          <div class="contactform">
+            <div>
+              <form action="index.html">
+                <div class="tickets_inputs">
+                  <input type="text" id="name" placeholder="Full name" />
+                  <input type="text" id="tel" placeholder="Phone number" />
+                  <input type="text" id="email" placeholder="Email" />
+                  <div class="checkbox">
+                    <p>I agree to the terms of use</p>
+                    <input
+                      type="checkbox"
+                      id="terms"
+                      placeholder="I agree to the terms of use"
+                      class="checkbox_box"
+                    />
+                  </div>
+                  <div class="button_confirm">
+                    <input
+                      type="submit"
+                      value="CONFIRM BOOKING"
+                      class="confirm_button"
+                    />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <!-- <div class="yourtickets_form_parent">
             <form action="index.html">
               <div class="yourtickets_inputs">
                 <input type="text" id="name" placeholder="Full name.." />
@@ -108,7 +142,7 @@
                 <input type="submit" value="SEND" />
               </div>
             </form>
-          </div>
+          </div> -->
         </div>
       </section>
     </main>
