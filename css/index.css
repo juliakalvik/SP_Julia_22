@@ -73,7 +73,7 @@ h4 {
 .eco,
 .evo,
 .cos {
-  width: 300px;
+  width: 250px;
   display: grid;
   flex-wrap: wrap;
   flex-direction: column;
@@ -403,10 +403,6 @@ h6 {
   .map_img {
     display: flex;
     position: absolute;
-  }
-
-  .map_homepage {
-    margin-right: ;
   }
 
   .info_parent {
