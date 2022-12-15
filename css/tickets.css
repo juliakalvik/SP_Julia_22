@@ -58,11 +58,18 @@ main {
 
 .calendar {
   height: 100%;
+  display: flex;
+  flex-direction: row;
   width: fit-content;
   color: #ffffff;
   background-color: #3b3b3b;
   padding: 1.25em 0;
   display: flex;
+  border-radius: 20px;
+}
+
+.calendar h3 {
+  font-family: "Alata", sans-serif;
 }
 
 .month_container {
@@ -72,17 +79,25 @@ main {
   width: 100%;
 }
 
-.weekdays,
+.header_month {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 10px;
+}
+
+.days,
 .dates {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 1.25em;
   row-gap: 1.25em;
   column-gap: 1.25em;
+  color: #3b3b3b;
 }
 
-.weekdays {
-  background-color: lightgray;
+.days {
+  background-color: #ff6c3b;
+  color: #ffffff;
   padding: 1.25em 1.25em;
   padding-top: 1.25em;
   padding-right: 1.25em;
@@ -90,6 +105,10 @@ main {
   padding-left: 1.25em;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  gap: 35px;
+  border-radius: 20px;
+  margin: 10px 10px;
 }
 
 .dates {
@@ -103,9 +122,23 @@ main {
 }
 
 .dates div {
-  padding: 0.75em;
+  display: flex;
+  padding: 10px;
   display: grid;
   align-self: center;
   text-align: center;
-  border-radius: 100%;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.time_calendar {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  color: #ffffff;
+  background-color: #3b3b3b;
+  padding: 1.25em 0;
+  display: flex;
+  border-radius: 20px;
 }
