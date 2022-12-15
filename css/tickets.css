@@ -56,7 +56,8 @@ main {
   flex-direction: column;
 }
 
-.calendar {
+.calendar,
+.time_calendar {
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -68,21 +69,30 @@ main {
   border-radius: 20px;
 }
 
-.calendar h3 {
+.calendar h3,
+.time_calendar h3 {
   font-family: "Alata", sans-serif;
 }
 
-.month_container {
+.time_calendar h3 {
+  font-size: 14px;
+}
+
+.month_container,
+.time_container {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.25em;
   width: 100%;
 }
 
-.header_month {
+.header_month,
+.header_time,
+.second_header_month {
   display: flex;
   justify-content: center;
-  letter-spacing: 10px;
+  word-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 .days,
@@ -95,14 +105,21 @@ main {
   color: #3b3b3b;
 }
 
+.time_slots {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25em;
+  row-gap: 1.25em;
+  column-gap: 1.25em;
+  color: #3b3b3b;
+  margin: 10px;
+  padding-top: 15px;
+}
+
 .days {
   background-color: #ff6c3b;
   color: #ffffff;
-  padding: 1.25em 1.25em;
-  padding-top: 1.25em;
-  padding-right: 1.25em;
-  padding-bottom: 1.25em;
-  padding-left: 1.25em;
+  padding: 1.25em;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -115,13 +132,14 @@ main {
   padding: 0 1.25em;
   padding-top: 0px;
   padding-right: 1.25em;
-  padding-bottom: 0px;
+  padding-bottom: 12px;
   padding-left: 1.25em;
   position: relative;
   z-index: 2;
 }
 
-.dates div {
+.dates div,
+.time_slots div {
   display: flex;
   padding: 10px;
   display: grid;
@@ -131,14 +149,40 @@ main {
   border-radius: 10px;
 }
 
-.time_calendar {
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  width: fit-content;
-  color: #ffffff;
-  background-color: #3b3b3b;
-  padding: 1.25em 0;
-  display: flex;
+.chosen_date {
+  background-color: #ff6c3b;
+  margin: 10px 10px;
+  padding: 1.1em;
   border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chosen_date h3 {
+  font-size: 18px;
+}
+
+.choose_date_and_time {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 200px;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+
+.next_button {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  background-color: #ff6c3b;
+  color: #ffffff;
+  border: none;
+  width: 200px;
+  height: 70px;
+  border-radius: 50px;
+  margin-right: 170px;
+  margin-bottom: 40px;
 }
