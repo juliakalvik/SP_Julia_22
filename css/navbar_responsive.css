@@ -1,0 +1,139 @@
+header {
+  width: 100%;
+  background-color: #3b3b3b;
+  font-family: "Alata", sans-serif;
+  position: fixed;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-link-tickets {
+  color: #ff6c3b;
+}
+
+.navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  margin: 0;
+  align-items: center;
+  background-color: #3b3b3b;
+  height: 100px;
+  text-align: justify;
+  width: 100%;
+  font-size: 20px;
+  padding: 0;
+}
+
+.nav-link,
+.nav-link-tickets {
+  transition: 0.7s ease;
+  display: flex;
+  min-width: 50px;
+}
+
+.nav-link:hover {
+  color: #ff6c3b;
+}
+
+.nav-link-tickets:hover {
+  color: #ffffff;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #ffffff;
+}
+
+.navbarlogores {
+  width: 80px;
+}
+
+.logo {
+  margin-right: 100px;
+  padding: 0;
+}
+
+.search_field {
+  display: flex;
+}
+
+.search_input {
+  background-color: #ff6c3b;
+  padding: 10px;
+  border-radius: 20px;
+  width: 120px;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #3b3b3b;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+    height: 250px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+  }
+}
