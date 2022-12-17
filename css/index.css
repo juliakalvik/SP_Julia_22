@@ -44,11 +44,12 @@ h3 {
   font-family: "Barlow Semi Condensed", sans-serif;
   padding-bottom: 2%;
   line-height: 25px;
+  font-size: 20px;
 }
 
 h1 {
   font-family: "Annie Use Your Telescope", cursive;
-  font-size: 35px;
+  font-size: 45px;
   font-weight: 100;
 }
 
@@ -56,6 +57,7 @@ h4 {
   font-family: "Annie Use Your Telescope", cursive;
   padding-bottom: 5%;
   line-height: 5px;
+  font-size: 20px;
 }
 
 .exhibitions {
@@ -379,6 +381,7 @@ h6 {
   align-items: center;
   padding: 20px;
   width: 500px;
+  height: 350px;
   margin-left: 25px;
   margin-right: 25px;
 }
@@ -389,6 +392,13 @@ h6 {
 
 .infocard_researchers {
   background-color: #fded71;
+}
+
+.parents_text,
+.teachers_text,
+.researchers_text {
+  width: 200px;
+  height: 800px;
 }
 
 @media screen and (min-width: 1024px) {
