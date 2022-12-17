@@ -26,6 +26,7 @@ body {
 
 .tickets_text {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   gap: 50px;
   line-height: 30px;
@@ -35,7 +36,7 @@ body {
 .text_admission,
 .text_guidedtours,
 .text_openinghours {
-  width: 300px;
+  width: 200px;
 }
 
 .tickets_choose {
