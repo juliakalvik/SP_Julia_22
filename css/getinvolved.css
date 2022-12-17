@@ -1,3 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .getinvolved_grid {
   display: flex;
   grid-template-columns: repeat(3, 1fr);
@@ -103,7 +115,7 @@ h6 {
   font-family: "Barlow Semi Condensed";
 }
 
-input[type="text"] {
+.getinvolved_inputs input {
   font-family: "Alata";
   display: flex;
   width: 350px;

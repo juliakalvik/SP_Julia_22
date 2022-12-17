@@ -19,6 +19,7 @@ h1 {
   font-family: "alata", sans-serif;
   font-weight: 100;
   padding-top: 25px;
+  font-size: 30px;
 }
 
 .header_img_exh {
@@ -48,11 +49,12 @@ h1 {
 
 .bio {
   background-color: #ff453d80;
+  margin-bottom: 35px;
 }
 
 h2 {
   font-family: "Alata", sans-serif;
-  letter-spacing: 15px;
+  letter-spacing: 3px;
 }
 
 p {
@@ -69,7 +71,7 @@ p {
 .img_ai2,
 .img_bio1,
 .img_bio2 {
-  width: 230px;
+  width: 500px;
   padding: 30px;
 }
 
@@ -79,6 +81,8 @@ p {
 .ai_card,
 .bio_card {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   flex-direction: row;
   gap: 30px;
   align-items: center;
@@ -91,6 +95,7 @@ p {
 .bio_card_parent {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .cos_header,
@@ -102,6 +107,7 @@ p {
   justify-content: center;
   margin-bottom: 20px;
   margin-top: 10px;
+  font-size: 30px;
 }
 
 .cos_text1,
@@ -116,7 +122,8 @@ p {
 .bio_text2 {
   display: flex;
   flex-direction: row;
-  min-width: 100px;
+  flex-wrap: wrap;
+  width: 255px;
 }
 
 .cos_textflex,
@@ -127,7 +134,7 @@ p {
   display: flex;
   flex-direction: row;
   gap: 30px;
-  font-size: 20px;
+  font-size: 28px;
 }
 
 .cos_alltext,
@@ -135,5 +142,49 @@ p {
 .eco_alltext,
 .ai_alltext,
 .bio_alltext {
-  line-height: 30px;
+  line-height: 35px;
+}
+
+@media screen and (max-width: 608px) {
+  .cos_text1,
+  .cos_text2,
+  .evo_text1,
+  .evo_text2,
+  .eco_text1,
+  .eco_text2,
+  .ai_text1,
+  .ai_text2,
+  .bio_text1,
+  .bio_text2 {
+    width: 120px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .img_cos1,
+  .img_cos2,
+  .img_evo1,
+  .img_evo2,
+  .img_eco1,
+  .img_eco2,
+  .img_ai1,
+  .img_ai2,
+  .img_bio1,
+  .img_bio2 {
+    width: 250px;
+  }
+
+  .ai_header {
+    font-size: 22px;
+  }
+
+  .bio_header h2 {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+  }
+
+  main {
+    overflow-x: hidden;
+  }
 }
