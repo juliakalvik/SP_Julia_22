@@ -27,10 +27,8 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* padding: 70px; */
   padding-top: 0;
   align-items: center;
-  /* height: 800px; */
   margin-top: 100px;
   width: 200;
 }
@@ -79,7 +77,6 @@ p {
 .about_main_img {
   display: flex;
   justify-content: center;
-  /* width: 50%; */
   margin: 0;
   padding: 0;
   border: 0;
@@ -122,6 +119,9 @@ p {
   border-radius: 20px;
   padding: 20px;
   padding-top: 0;
+  width: 300px;
+  display: flex;
+  justify-content: center;
 }
 
 .gi_form p {
@@ -133,7 +133,7 @@ p {
 .about_inputs input {
   font-family: "Alata";
   display: flex;
-  width: 360px;
+  width: 250px;
   padding: 1.5vh;
   font-size: medium;
   margin: 10px;
@@ -195,6 +195,12 @@ input[type="submit"] {
   flex-direction: column;
 }
 
+.about_infocard_alltext {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
 .about_infocard {
   display: flex;
   background-color: #71ba6780;
@@ -209,7 +215,6 @@ input[type="submit"] {
   display: flex;
   justify-content: center;
   margin-top: 40px;
-
   font-family: "Alata", sans-serif;
 }
 
@@ -288,5 +293,17 @@ input[type="submit"] {
 @media screen and (max-width: 420px) {
   main {
     overflow-y: hidden;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .about_main_textflex {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .about_main_h1 h1 {
+    font-size: 30px;
   }
 }
