@@ -44,7 +44,7 @@ h1 {
   display: grid;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 400px;
+  width: 300px;
 }
 
 .volunteer_textflex,
@@ -52,10 +52,10 @@ h1 {
 .internships_textflex {
   display: flex;
   gap: 20px;
-  height: 320px;
+  height: 410px;
   align-items: center;
   font-family: "Barlow Semi Condensed";
-  width: 400px;
+  width: 300px;
 }
 
 .volunteer_textflex,
@@ -93,6 +93,7 @@ h1 {
 h6 {
   font-size: 16px;
   font-family: "Alata";
+  margin: 0;
 }
 
 .contactform {
@@ -103,9 +104,12 @@ h6 {
 
 .gi_form_background {
   background-color: #3b3b3b;
+  display: flex;
+  justify-content: center;
   border-radius: 20px;
   padding: 20px;
   padding-top: 0;
+  width: 300px;
 }
 
 .gi_form p {
@@ -118,7 +122,8 @@ h6 {
 .getinvolved_inputs input {
   font-family: "Alata";
   display: flex;
-  width: 350px;
+  justify-content: center;
+  width: 250px;
   padding: 1.5vh;
   font-size: medium;
   margin: 10px;
@@ -141,8 +146,6 @@ h6 {
 
 input[type="submit"] {
   margin: auto;
-  display: flex;
-  justify-content: center;
   align-items: center;
   font-size: 16px;
   background-color: #ff6c3b;
