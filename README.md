@@ -18,6 +18,8 @@ I also got some input from my classmates, mostly Sofie, Håkon, and Sander.
 
 I added alt text to the images and unique titles to all my HTML sites.
 
+I should also mention that the calendar and time sloth chooser are not clickable or functioning in any way due to lack of skill in how to build them properly. The same goes for the ticket choosers: you can't click on the plus or minus sign, but I added the counter just to get the feel of how it should work. For now I just wanted to show my ideas and what I hope to be able to do in the future. I hope to learn how to put both these ideas to life when I get to learn how to use javascript.
+
 Content management:
 I used some of the sample images provided to us for this semester project and added some in addition. Some of them are slightly worked on in photoshop, mostly for adding gradients. I also used photoshop for the change of colors in the logo.
 
