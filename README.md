@@ -1,3 +1,9 @@
+Link to Figma file:
+https://www.figma.com/file/4cKZ9V9dymdKm0JrD23LUX/SP22_Julia?node-id=0%3A1&t=8btrNwhk8P0T2f4N-1
+
+Link to deployed site:
+https://cheerful-gecko-5e0185.netlify.app/
+
 Introduction:
 The purpose of this project was to use all skills adapted through the semester to make a science museum website appealing to kids ages 7-15 and their families. It has been a fun and stressful experience.
 
