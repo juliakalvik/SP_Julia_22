@@ -145,8 +145,6 @@ body {
   padding-right: 1.25em;
   padding-bottom: 12px;
   padding-left: 1.25em;
-  position: relative;
-  z-index: 2;
 }
 
 .dates div,
@@ -223,7 +221,7 @@ body {
   display: flex;
   align-items: center;
   gap: 4px;
-  padding: 8px;
+  padding: 4px;
   background-color: #ff6c3b;
   border-radius: 10px;
 }
@@ -231,4 +229,43 @@ body {
 .number_input input {
   background-color: #3b3b3b;
   color: #ffffff;
+  height: 40px;
+  font-size: 20px;
+}
+
+.button_next {
+  background-color: #ff6c3b;
+  border-radius: 25px;
+  font-family: "Alata", sans-serif;
+  border: none;
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 75%;
+}
+
+.next_button {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 25px;
+  height: 50px;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+  .button_next {
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button_next {
+    margin-left: 37%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .button_next {
+    margin-left: 20%;
+  }
 }

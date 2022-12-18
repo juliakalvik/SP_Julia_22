@@ -132,6 +132,18 @@ h6 {
   background-color: #ff6c3b;
 }
 
+.about_button {
+  font-size: 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 32%;
+}
+
 .message {
   height: 20vh;
 }

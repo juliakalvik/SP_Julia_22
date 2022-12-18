@@ -16,6 +16,7 @@ body {
   font-family: "Alata";
   gap: 100px;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   margin-top: 80px;
 }
@@ -24,6 +25,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .box1_column1 {
@@ -161,7 +164,7 @@ body {
 .contactform {
   display: flex;
   justify-content: center;
-  padding-top: 2vh;
+  margin-top: 50px;
 }
 
 .checkbox {
@@ -196,10 +199,52 @@ main {
   overflow-x: hidden;
 }
 
+.button_confirm {
+  background-color: #ff6c3b;
+  border-radius: 25px;
+  font-family: "Alata", sans-serif;
+  border: none;
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 70%;
+  margin-top: 50px;
+}
+
+.confirm_button {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 25px;
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 320px) {
   .header_box1,
   .header_box2 {
     display: flex;
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .button_confirm {
+    margin-left: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button_confirm {
+    margin-left: 37%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .button_confirm {
+    margin-left: 20%;
   }
 }

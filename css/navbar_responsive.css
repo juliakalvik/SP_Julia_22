@@ -128,7 +128,6 @@ a {
     background-color: #3b3b3b;
     width: 100%;
     text-align: center;
-    transition: 0.3s;
     margin-top: 20px;
   }
 
@@ -142,7 +141,6 @@ a {
   }
 
   .search_field {
-    background-color: #3b3b3b;
     width: 100%;
     display: flex;
     justify-content: center;
