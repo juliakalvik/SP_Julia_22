@@ -1,7 +1,7 @@
 async function fetchPosts() {
   try {
     const response = await fetch(
-      "http://cms-course-assignment.local/wp-json/wp/v2/posts"
+      "https://cmsjulia.flywheelsites.com/wp-json/wp/v2/posts/"
     );
     if (!response.ok) {
       throw new Error("Failed to fetch posts");
