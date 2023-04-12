@@ -1,0 +1,4 @@
+.postsList {
+  display: flex;
+  flex-wrap: wrap;
+}
