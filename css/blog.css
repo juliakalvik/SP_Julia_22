@@ -1,4 +1,15 @@
+.blogposts_parent {
+  display: flex;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
 .postsList {
   display: flex;
-  flex-wrap: wrap;
+  width: 200px;
+}
+
+.blogposts_parent > ul {
+  display: flex;
 }
