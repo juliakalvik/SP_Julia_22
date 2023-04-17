@@ -13,3 +13,7 @@
 .blogposts_parent > ul {
   display: flex;
 }
+
+li * h2 {
+  color: black;
+}

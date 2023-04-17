@@ -1,31 +1,28 @@
-async function fetchPosts() {
+async function fetchPost() {
   try {
     const response = await fetch(
-      "https://cmsjulia.flywheelsites.com/wp-json/wp/v2/posts/" + id `?post=${post.id}`; 
+      "https://cmsjulia.flywheelsites.com/wp-json/wp/v2/posts/23"
+      /* "https://cmsjulia.flywheelsites.com/wp-json/wp/v2/posts/" + id `?post=${post.id}`;  */
     );
-    if (!response.ok) {
-      throw new Error("Failed to fetch posts");
-    }
-    const data = await response.json();
-    const postsListElement = document.getElementById("postsList");
-    data.forEach((post) => {
-      const li = document.createElement("li");
-      const h2 = document.createElement("h2");
-      const p = document.createElement("p");
-      const link = document.createElement("a");
+    const blogPost = await response.json();
+    const postContent = document.getElementById("object-details");
+      const h2 = document.createElement("h2");// <h2></h2>
+      const p = document.createElement("p");// <p></p>
+      
 
-      h2.textContent = post.title.rendered;
-      p.innerHTML = post.excerpt.rendered;
+      h2.textContent = post.title.rendered; 
+      p.innerHTML = post.excerpt.rendered;// <p>tekst</p>
       link.href = `post.html?id=${post.id}&image=${post.featured_media}`;
 
       link.appendChild(h2);
       li.appendChild(link);
       li.appendChild(p);
       postsListElement.appendChild(li);
+    
     });
   } catch (error) {
     console.error(error);
   }
 }
 
-fetchPosts();
+fetchPost();
