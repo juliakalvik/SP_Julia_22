@@ -19,10 +19,10 @@ async function fetchPost() {
       li.appendChild(p);
       postsListElement.appendChild(li);
     
-    });
+    };
   } catch (error) {
     console.error(error);
-  }
-}
+  )};
+;
 
 fetchPost();

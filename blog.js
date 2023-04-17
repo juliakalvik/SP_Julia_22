@@ -26,7 +26,7 @@
 
 fetchPosts();
 */
-
+/*
 async function fetchPosts() {
   try {
     const response = await fetch(
@@ -57,3 +57,22 @@ async function fetchPosts() {
 }
 
 fetchPosts();
+*/
+
+fetch("https://cmsjulia.flywheelsites.com/wp-json/wp/v2/posts/")
+  .then((response) => response.json())
+  .then((allPosts) => {
+    const blogPostListContainer = document.getElementById("blogPost-list");
+    allPosts.forEach((blogPost) => {
+      const blogPostHtml = ` <a href="blogpost-detail.html?id=${blogPost.id}">
+        <div class="blogpost" all-blogposts-id="${blogPost.id}">
+          <h2>${blogPost.title.rendered}</h2>
+          <p>${blogPost.excerpt.rendered}</p>
+          </a>
+        </div>
+        <br>
+      `;
+      blogPostListContainer.insertAdjacentHTML("beforeend", blogPostHtml);
+    });
+  })
+  .catch((error) => console.error(error));
