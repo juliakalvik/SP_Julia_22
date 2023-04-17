@@ -1,5 +1,34 @@
-main * a {
+body,
+html {
+  width: 100%;
+}
+
+main * a,
+p {
   color: black;
+  width: 250px;
   display: flex;
   flex-direction: column;
+}
+
+#blogPost-list {
+  display: flex;
+}
+
+footer * p {
+  color: white;
+}
+
+.blogpost {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 400px;
+  width: 300px;
+  border-radius: 25px;
+  background-color: blueviolet;
+}
+
+a {
+  display: flex;
+  flex-wrap: wrap;
 }
