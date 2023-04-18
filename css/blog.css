@@ -1,18 +1,30 @@
-body,
-html {
-  width: 100%;
+* {
+  box-sizing: border-box;
 }
 
+html,
+body {
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 main * a,
 p {
   color: black;
-  width: 250px;
+  width: 300px;
   display: flex;
   flex-direction: column;
+  line-height: 20px;
+  margin-top: 0;
 }
 
 #blogPost-list {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 30px;
 }
 
 footer * p {
@@ -22,13 +34,39 @@ footer * p {
 .blogpost {
   border: 1px solid #ccc;
   padding: 10px;
-  height: 400px;
-  width: 300px;
+  height: 300px;
+  width: 400px;
   border-radius: 25px;
-  background-color: blueviolet;
+  background-color: #71ba6780;
+  border: none;
+  margin: 20px;
 }
 
 a {
   display: flex;
   flex-wrap: wrap;
+}
+
+h2,
+p {
+  margin-left: 40px;
+}
+
+h1 {
+  width: 300px;
+  font-size: 30px;
+  margin: 30px;
+  font-family: "Alata";
+}
+
+.blog-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+}
+
+.blog-p {
+  font-size: 24px;
+  line-height: 30px;
 }
