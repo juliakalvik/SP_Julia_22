@@ -32,7 +32,6 @@ footer * p {
 }
 
 .blogpost {
-  border: 1px solid #ccc;
   padding: 10px;
   height: 300px;
   width: 400px;
@@ -66,7 +65,21 @@ h1 {
   margin: 50px;
 }
 
+.blog-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+}
+
 .blog-p {
   font-size: 24px;
   line-height: 30px;
+}
+
+.blog-flex > img {
+  max-width: 600px;
+  border-radius: 25px;
+  margin: auto;
 }

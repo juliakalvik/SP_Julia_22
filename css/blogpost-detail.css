@@ -28,17 +28,24 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .post > p {
   width: 300px;
   display: flex;
   flex-wrap: wrap;
+  background-color: #3b9bdf80;
+  padding: 25px;
+  border-radius: 25px;
+  height: 300px;
+  width: 400px;
 }
 
 .wp-element-caption {
   width: 300px;
-  font-size: large;
+  font-size: medium;
 }
 
 .l-main {
@@ -49,4 +56,27 @@ img {
   justify-content: center;
   font-size: large;
   flex-direction: row;
+}
+
+.wp-block-image.size-full {
+  font-family: "Alata";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wp-block-gallery.has-nested-images.columns-default.is-cropped.wp-block-gallery-1.is-layout-flex {
+  font-family: "Alata";
+}
+
+.post > h2 {
+  font-size: 34px;
+  text-align: center;
+}
+
+@media screen and (max-width: 424px) {
+  .post > h2 {
+    width: 300px;
+  }
 }

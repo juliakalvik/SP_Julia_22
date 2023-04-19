@@ -47,7 +47,7 @@ fetch(`https://cmsjulia.flywheelsites.com/wp-json/wp/v2/posts/${postId}`)
     const postHtml = `
       <div class="post">
         <h2>${blogPost.title.rendered}</h2>
-        <p>${blogPost.content.rendered}</p>
+        ${blogPost.content.rendered}
       </div>
     `;
     postDetailContainer.insertAdjacentHTML("beforeend", postHtml);
