@@ -1,3 +1,23 @@
+LATEST UPDATES:
+
+For this course assignment I continued my work on my museum project, by creating a blog in WordPress with some pre-written blog posts for the user to read.
+
+To do this, I created an installation of WordPress on a web host (I used Local and Flywheel), fetched the data (the blog posts) from the WordPress REST API to my project using JavaScript, and also used query string parameters to allow the user to click on the individual blog posts and see the post-specific details for each post.
+
+After doing all of the technical stuff, I added some styling to both the blog.html page and the blogpost-detail.html page to make the design fit in with the rest of my website. I also added the blog to my nav bar.
+
+For me, it was definitely a challenge working with WordPress, but it was fun to learn how you can make your own REST API and actually fetch it to a website.
+
+Here is a direct link to my updated work (the blog with all the blog posts):
+https://cheerful-gecko-5e0185.netlify.app/blog.html
+
+Link to the WordPress site/Flywheel:
+http://cmsjulia.flywheelsites.com/
+
+Below follows my previous report from when I first delivered my project, including my other links.
+
+___________________________________________________________
+
 Link to Figma file:
 https://www.figma.com/file/4cKZ9V9dymdKm0JrD23LUX/SP22_Julia?node-id=0%3A1&t=8btrNwhk8P0T2f4N-1
 
